@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace BHTree.Runtime.Tasks.Core
 {
-    public abstract class Task : ScriptableObject
+    public abstract class TaskNode : ScriptableObject
     {
         public TaskState state = TaskState.Running;
         public bool started = false;
